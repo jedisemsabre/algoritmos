@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main(void)
+{
+	int xicara,ovo,colher,menor,x,o,c;
+	
+	scanf("%d %d %d",&xicara,&ovo,&colher);
+	x=xicara%2;
+	o=ovo%3;
+	c=colher%5;
+	
+	if(x<o&&x<c)
+	{
+		menor=x;
+	}
+	if(o<c&&o<x)
+	{
+		menor=o;
+	}
+	if(c<x&&c<o)
+	{
+		menor=c;
+	}
+	printf("%d",menor);
+
+return 0;	
+	
+	
+}	
+
+
+

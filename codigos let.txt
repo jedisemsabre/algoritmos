@@ -1,0 +1,57 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int comptubo,qntapetes,area;
+    unsigned long long int  a,soma;
+    scanf("%d %d",&comptubo,&qntapetes);
+    a = comptubo -(qntapetes-1);
+    a = (a*a);
+
+    soma = a+(qntapetes-1);
+    printf("%llu\n",soma);
+
+    return 0;
+}
+
+#include<stdio.h>
+
+int main(void)
+{
+    int ctubo,tapete;
+    unsigned long long int  a,soma;
+    scanf("%d %d",&ctubo,&tapete);
+    a = cotubo -(tapete-1);
+    a = (a*a);
+
+    soma = a+(qntapetes-1);
+    printf("%llu\n",soma);
+
+    return 0;
+}
+
+#include<stdio.h>
+
+int main(void)
+{
+    int l,m,xm,ym,xr,yr;
+
+    scanf("%d %d %d %d",&xm,&ym,&xr,&yr);
+
+    l = (yr - ym);
+    m = (xr - xm);
+
+    if(l<0)
+    {
+        l = l*(-1);
+    }
+
+    if(m<0)
+    {
+        m = m*(-1);
+    }
+
+    printf("%d\n",l+m);
+
+    return 0;
+}

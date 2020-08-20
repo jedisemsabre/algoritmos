@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main(void)
+{
+	int xicara,ovo,colher,menor,x,o,c;
+	
+	scanf("%d %d %d",&xicara,&ovo,&colher);
+	x=xicara/2;
+	o=ovo/3;
+	c=colher/5;
+	
+	
+	printf("%d\n",menor);
+
+return 0;	
+	
+	
+}
+
+#include <stdio.h>
+
+int main(void){
+
+int a, b, c;
+
+scanf("%d %d %d", &a, &b, &c);
+
+a = (a/2);
+b = (b/3);
+c = (c/5);
+
+if ((c>a && b>a)||(a==b && a==c) || (c> a && a == b  ) || (b> a && a == c)){printf("%d\n", a);}
+if ((c>b && a>b)||(a> b && b==c)){printf("%d\n", b);}
+if (b>c && a>c){printf("%d\n", c);}
+return 0;
+}

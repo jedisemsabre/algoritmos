@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a,x,v=0,i;
+
+	scanf("%d",&a);
+
+	for(i=0;i<a;i++)
+	{
+		scanf("%d",&x);
+
+		v=v+x;
+	}
+
+	printf("%d\n",v);
+
+	return 0;
+}
